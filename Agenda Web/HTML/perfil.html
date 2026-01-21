@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../css/perfil.css">
+</head>
+<body>
+
+<header class="topbar">
+    <button onclick="volver()">⬅ Volver</button>
+</header>
+
+<main class="perfil-container">
+
+    <img id="profilePhoto" class="profile-photo">
+    <input type="file" id="photoInput" accept="image/*" hidden>
+
+    <button class="btn-cambiar" onclick="cambiarFoto()">Cambiar foto</button>
+
+    <h2 id="profileName"></h2>
+
+</main>
+
+
+<script src="../JS/perfil.js"></script>
+</body>
+</html>
