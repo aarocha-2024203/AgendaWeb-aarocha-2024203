@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../css/contactos.css">
+</head>
+<body>
+
+    <header class="topbar">
+
+        <div class="nav-tabs">
+                <span class="tab active" onclick="mostrarContactos()">Contactos</span>
+                <span class="tab" onclick="mostrarFavoritos()">Favoritos</span>
+                <span class="tab" onclick="irTodo()">ToDo</span>
+        </div>
+
+
+        <div class="user-info">
+            <img src="../img/user.jpg" id="userPhoto">
+            <span id="userName" class="user-name"></span>
+            <input type="file" id="photoInput" hidden>
+        </div>
+
+    </header>
+
+    <main class="container">
+
+        <button class="add-btn" onclick="nuevoContacto()">
+            ➕ Nuevo contacto
+        </button>
+
+        <ul id="contactList" class="contact-list"></ul>
+
+    </main>
+
+    <script src="../JS/contactos.js"></script>
+</body>
+</html>
