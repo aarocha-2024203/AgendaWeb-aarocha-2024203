@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../img/LoginFondo.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container {
+    background: rgba(2, 102, 85, 0.95);
+    padding: 140px;
+    width: 620px; 
+    border-radius: 25px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    border-top: 6px solid #ff9800; 
+    transform: translateX(300px);
+}
+
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f8faf9;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f7f8f7;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #66bb6a;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #ff9800;
+    box-shadow: 0 0 8px rgba(255, 152, 0, 0.4);
+}
+
+
+button {
+    width: 100%;
+    padding: 30px;
+    background: linear-gradient(135deg, #035726, #2d7c4d);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(255, 152, 0, 0.4);
+}
