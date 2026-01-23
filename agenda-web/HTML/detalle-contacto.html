@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle del Contacto</title>
+    <link rel="stylesheet" href="../css/detalle-contacto.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <h2>📇 Detalle del Contacto</h2>
+    </header>
+
+    <main class="container detail-container">
+
+        <div class="detail-card">
+            <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+            <p><strong>Teléfono:</strong> <span id="telefono"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Dirección:</strong> <span id="direccion"></span></p>
+
+            <button onclick="volver()">⬅ Volver</button>
+            <button class="eliminar" onclick="eliminarContacto()">🗑 Eliminar</button>
+        </div>
+
+    </main>
+
+    <script src="../JS/detalle-contacto.js"></script>
+</body>
+</html>
