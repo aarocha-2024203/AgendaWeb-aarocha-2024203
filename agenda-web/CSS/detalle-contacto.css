@@ -1,0 +1,57 @@
+body {
+    min-height: 100vh;
+    background-image: url("../img/FondoContactos.png");
+    background-size: cover;
+}
+
+/* BARRA SUPERIOR */
+.topbar {
+    background: #026655;
+    color: white;
+    padding: 15px;
+    font-size: 1.3em; /* +30% */
+}
+
+/* CONTENEDOR */
+.detail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* TARJETA */
+.detail-card {
+    background: rgba(2, 102, 85, 0.95);
+    padding: 35px;
+    border-radius: 22px;
+    width: 420px;
+    color: white;
+    font-size: 1.3em; /* +30% */
+}
+
+/* ETIQUETAS */
+.detail-card strong {
+    color: #ffcc80;
+}
+
+/* BOTONES GENERALES */
+.detail-card button {
+    width: 100%;
+    padding: 16px;
+    border: none;
+    color: white;
+    margin-top: 14px;
+    border-radius: 14px;
+    font-size: 1.2em; /* botones grandes */
+    cursor: pointer;
+}
+
+/* BOTÓN VOLVER */
+.detail-card button:first-of-type {
+    background: #ff9800; /* 🟠 NARANJA */
+}
+
+/* BOTÓN ELIMINAR */
+.eliminar {
+    background: #c62828; /* 🔴 ROJO */
+}
