@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevo Contacto</title>
+    <link rel="stylesheet" href="../css/nuevo-contacto.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <h2>➕ Nuevo Contacto</h2>
+    </header>
+
+    <main class="container form-container">
+
+        <form id="contactForm">
+
+            <div class="input-group">
+                <label>Nombre</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div class="input-group">
+                <label>Teléfono</label>
+                <input type="tel" id="telefono" required>
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="input-group">
+                <label>Dirección</label>
+                <input type="text" id="direccion">
+            </div>
+
+            <button type="submit">Guardar Contacto</button>
+            <button type="button" class="cancelar" onclick="volver()">Cancelar</button>
+
+        </form>
+
+    </main>
+
+    <script src="../JS/nuevo-contacto.js"></script>
+
+</body>
+</html>
