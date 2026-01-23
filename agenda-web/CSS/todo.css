@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("../img/FondoContactos.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.topbar {
+    background: #026655;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar h2 {
+    font-size: 24px;
+}
+
+.btn-volver {
+    background: #fd8903;
+    color: white;
+    padding: 14px 26px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.btn-volver:hover {
+    background: #fa9704;
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+form input,
+form select {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+form button {
+    background: #ff9800;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+#todoList {
+    list-style: none;
+    padding: 0;
+}
+
+
+.todo-item {
+    background: #e0f2f1;
+    padding: 14px 18px; 
+    margin-bottom: 12px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.todo-text {
+    font-size: 21px; 
+    flex: 1;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 3px; 
+}
+
+
+.todo-actions button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.editar {
+    background: #ff9800;
+    color: white;
+}
+
+.eliminar {
+    background: #c62828;
+    color: white;
+}
